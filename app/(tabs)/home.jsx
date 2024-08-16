@@ -59,13 +59,7 @@ const Home = () => {
               <Text className='text-gray-100 text-lg font-pregular mb-3 '>
                 Latest Videos
               </Text> 
-              <Trending posts={latestPosts ?? []} /> 
-              {/* <VideoCard posts={posts}/> */}
-              {/* <Text className='text-gray-100 text-lg font-pbold'>Hello</Text>
-              <New /> */}
-              <Text>Hello</Text>
-
-             
+              <Trending posts={latestPosts ?? []} />  
             </View>
           </View>
         )}
